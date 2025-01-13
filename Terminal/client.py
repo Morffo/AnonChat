@@ -13,7 +13,7 @@ def chat_client(screen):
     messages = []
     server_messages = []
     client_messages = []
-    hostname = "37.140.192.226"
+    hostname = "YOUR-IP"
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client.connect((hostname, port))
     print("You are connected!")
